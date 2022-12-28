@@ -1,4 +1,5 @@
 def mean(lis):
+    if lis = [] : return 0;
     sum=0
     n=len(lis)
     for i in lis:
@@ -6,6 +7,7 @@ def mean(lis):
     return int(sum/n)
 
 def mode(lis):
+    if lis = [] : return 0;
     dic={}
     for i in lis:
         dic[i]=0
@@ -20,6 +22,7 @@ def mode(lis):
     return -1
 
 def median(lis):
+    if lis = [] : return 0;
     n=len(lis)
     lis.sort()
     return lis[int(n/2)]
